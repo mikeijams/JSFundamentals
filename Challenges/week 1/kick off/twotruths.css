@@ -1,0 +1,32 @@
+h1 {
+    color: lightgreen;
+    text-align:center;
+}
+
+h3 {
+    color: blue;
+}
+
+p {
+    color: red;
+}
+
+#main {
+    border: 4px solid black;
+    background-color:grey;
+    border-radius:50px;
+    text-align: center;
+    padding: .50em;
+}
+
+.truth {
+    background: lightgray;
+    display: inline-block;
+    width:33%;
+    border-radius:30px;
+    border: 2x solid black;
+}
+
+
+      
+
