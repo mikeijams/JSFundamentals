@@ -18,7 +18,7 @@ let complexArrLiteral = [1, true, 'academy', [1,2,3], {key: 'test'}, function(){
 console.log(complexArrLiteral[5]);
 console.log(complexArrLiteral[3]);
 
-let complexObjLiteral = {num: 1, boolean: true, string: 'academy', array: [1,2,3], obj: {key: test}, func: function(){return 'yes'}};
+let complexObjLiteral = {num: 1, boolean: true, string: 'academy', arr: [1,2,3], obj: {key: 'test'}, func: function(){return 'yes'}};
 console.log(complexObjLiteral.func);
 console.log(complexObjLiteral.arr);
 

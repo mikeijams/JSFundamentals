@@ -1,0 +1,166 @@
+body { 
+    background-color: black;
+
+}
+
+.wrapper {
+
+    justify-content: space-between;  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0) 100%), radial-gradient(52% 100%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.7) 100%), url(abc.jpg);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+
+.background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 8px solid #222222;
+    padding-top:0px;
+    background: transparent;
+    height: 575px;
+
+    }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    padding-top: 20px;
+    margin-left: 56px;
+    margin-right: 56px;
+    background: transparent;
+}
+
+.div-two {
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-evenly ;
+    background-color: black;
+    padding-top: 95px;
+    padding-bottom: 95px;
+    width: 100%;
+    border-bottom: 8px solid #222222;
+    background-image: url('tv.png');
+    background-repeat: no-repeat;
+    background-position: 92%, 5% ;
+    background-size: 41%;
+}
+
+.div-three{
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding-top: 95px;
+    padding-bottom: 95px;
+    border-bottom: 8px solid #222222;
+    background-image: url(mobile-0819.jpg);
+    background-repeat: no-repeat;
+    background-position: 20px ;
+    background-size: 40%;
+
+}
+
+.text-two {
+    margin-left: 45% ;
+}
+
+
+
+
+.stranger-things {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center ;
+    border-radius: 8px;
+    border: 3px solid #404040;
+    width: 315px;
+    height: 70px;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 9px;  
+    top:90%;
+    left: 9%;
+}
+
+text{
+    color: #006ce0;
+    font-size: 15px;
+}
+
+.download {
+    margin-left: auto;
+}
+
+
+
+#signIn {
+    background-color: #e50914;
+    color: #ffffff;
+    font-size: 16px;
+    height: 35px;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 5px;
+
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: 400;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-size: 19px;
+    font-weight: 400;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    height: 55px;
+    width: 450px;
+    font-size: 16px;
+
+}
+
+#email {
+    height:59px;
+    width: 312px;
+    background-color: #e50914;
+    color: #ffffff;
+    font-size: 26px;
+    border: none;
+}
+
+
+
+
+
+
+
