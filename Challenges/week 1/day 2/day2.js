@@ -76,3 +76,37 @@ if (myString.length === 0) {
     console.log(myString)
 }
 
+
+let movie = {
+    nameOfMovie: 'Kill Bill: Volume 1',
+    runTime: '111 minutes',
+    genre: 'Action',
+    characters:[ { characterOne: { name: "Beatrix 'The Bride' Kiddo", age: '27', items: [ {itemOne: 'Katana Sword'}, {itemTwo: 'Yellow jumpsuit'} ]}}, 
+     { characterTwo: {name: "Elle Driver", age: "32", items: [ {itemOne: "Eye patch"}, {itemTwo: "Snake"} ]}}]}
+    
+    console.log(movie.nameOfMovie);
+    console.log(movie.runTime);
+    console.log(movie.characters);
+    console.log(movie.characters[0].characterOne.name);
+    console.log(movie.characters[0].characterOne.items[0].itemOne);
+
+
+
+
+//for (let num = 0; num <= 10; num++){
+ //   console.log(num);
+//}
+
+function repl(num){
+for (let num = 0; num <= 10; num++){
+    console.log(num); 
+ if (num % 2 === 0){
+     console.log('this number is even')
+ } else console.log('this number is odd')
+}
+}
+
+repl();
+
+
+
