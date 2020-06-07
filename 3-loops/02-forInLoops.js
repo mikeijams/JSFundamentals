@@ -12,7 +12,7 @@ for (item in student){
 let catArray = [ 'tabby', ' brittish shorthair', 'burmese', 'maine coone', 'rag doll']
 
 for (cat in catArray){
-    console.log(cat);
+    //console.log(cat);
     console.log(catArray[cat]);
 }
 

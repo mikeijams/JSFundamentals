@@ -41,13 +41,15 @@ switch(true){
 
 /////pies
 
-let pieArray = ['apple', 'blueberry', 'peach', 'chocolate peanut butter', 'cherry',
+let pies = ['apple', 'blueberry', 'peach', 'chocolate peanut butter', 'cherry',
  'sugar', 'lemon meringue', 'chicken pot', 'shepherd', 'key lime'];
 
-for (let i = 0 ; i < pieArray.length ; i++){
-for (pie in pieArray){
-  if (pieArray.includes[0] || [1] || [2] || [4] || [6] || [9]) 
-console.log(`${} is a fruit pie.` );
+for (let i = 0 ; i < pies.length ; i++){
+    //console.log(i);
+  if (i == 0 || i == 1 || i == 2 || i == 4 || i == 6 || i == 9) {
+console.log(`${pies[i]} is a fruit pie.` );
+    } else {
+        console.log('this is not a type of fruit pie')
     }
 }
 
@@ -57,33 +59,8 @@ let pieArray = ['apple', 'blueberry', 'peach', 'chocolate peanut butter', 'cherr
 
  for (pie of pieArray) {
      console.log(pie);
-    if (pie.includes(('apple') || ('blueberry') || ('peach') || ('cherry') || ('lemon meringue') || ('key lime')) {
+    if (pie.includes(('apple') || ('blueberry') || ('peach') || ('cherry') || ('lemon meringue') || ('key lime')) 
         console.log(`${pie} "is a fruit pie." );
     }
 
-let movie = {
-nameOfMovie: 'Kill Bill: Volume 1',
-runTime: '111 minutes',
-genre: 'Action',
-characters:[ {characterOne: {name: "Beatrix 'The Bride' Kiddo", age: '27', items: ['Katana Sword', 'Yellow jumpsuit']}}, 
-{characterTwo: {Name: "Elle Driver", Age: "32", items: ["Eye patch", "Snake"]}}
-        
-       
-        console.log(movie.nameOfMovie);
-        console.log(movie.runTime);
-        console.log(movie.characters);
-        console.log(movie.characters[0].name);
-        console.log(movie.characters[0].items[0]);
 
-        let movie = {
-            nameOfMovie: 'Kill Bill: Volume 1',
-            runTime: '111 minutes',
-            genre: 'Action',
-            characters:[ {name: "Beatrix 'The Bride' Kiddo", age: '27', items: ['Katana Sword', 'Yellow jumpsuit']}, 
-             {Name: "Elle Driver", Age: "32", items: ["Eye patch", "Snake"]}]}
-            
-            console.log(movie.nameOfMovie);
-            console.log(movie.runTime);
-            console.log(movie.characters);
-            console.log(movie.characters[0].name);
-            console.lof(movie.characters[0].items[0]);

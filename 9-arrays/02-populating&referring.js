@@ -76,5 +76,10 @@ if (arr instanceof Array){
     revArr.forEach(numbers => console.log(numbers));
 }
 
+sodas = ['pop', 'coke', 'fanta', 'pepsi']
+
+sodas.forEach(soda => () )
+
+
 
 

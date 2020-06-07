@@ -61,10 +61,13 @@ let netflix = {
     mystery(c, 4, a);
     mystery(a + b, b + c, c + a);
   }
-  main();
+main();
+
  function mystery(w, z, y) {
  console.log(`${y} + ${w} = ${z}`);
   }
+
+  
 
   //functions can be invoked anywhere
   //wyz took abc value because of 'mystery'

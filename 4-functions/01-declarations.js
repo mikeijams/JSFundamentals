@@ -26,6 +26,8 @@ function sentence(firstName, lastName){
 console.log(sentence(`Johnathan`, `Huer`));
 let superImportantSentenence = sentence('Nicky', 'Disbourough');
 console.log(superImportantSentenence);
+let dietCoke = sentence ('Michael', 'Ijams')
+console.log(dietCoke);
 
 // build a function that takes a complex type -- an array in this case, and console.logs
 //each item in the input array
@@ -40,3 +42,14 @@ function iteratorFunc(inputArr){
 }
 iteratorFunc(arr);
 iteratorFunc(arr2);
+
+
+let cats = [ 'tabby', true, [1,2,3], 5]
+
+function idk(array){
+  for(let chloe of array){
+    console.log(chole);
+  }
+}
+console.log(cats);
+
